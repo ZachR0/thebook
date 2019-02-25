@@ -9,7 +9,7 @@ fn main() {
     // let foo = 5; this is immutable
     // let mut foo = 5; this is mutable
 
-    let mut guess = String::new(); //Create mutable var of empty string type
+    let mut guess = String::new(); //Create mutable var of string type
 
     io::stdin().read_line(&mut guess).expect("Failed to read line");
 
