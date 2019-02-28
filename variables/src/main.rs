@@ -17,4 +17,9 @@ fn main() {
     let y = y * 2;
     println!("The value of y is: {}", y);
 
+    //Example of shadowing where we change the type
+    let spaces = "      ";
+    let spaces = spaces.len();
+    println!("There are {} spaces!", spaces);
+
 }
